@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Players</title>
+  </head>
+  <body>
+    <section class="inner-banner">
+      <div class="container">
+        <div class="row justify-content-end align-items-end">
+            <div class="col-md-8">
+                <div class="player-informations"></div>
+            </div>
+            <div class="col-md-4">
+                <div class="player-banner-img">
+                    <img src="assets/images/player1.webp" class="img-fluid">
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="all-players-tabs">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="tabs-area">
+              <ul class="tabs">
+                <li data-tab-target="#All-tabs" class="active tab">All</li>
+                <li data-tab-target="#A-tabs" class="tab">A</li>
+              </ul>
+
+              <div class="tab-content">
+                <div id="All-tabs" data-tab-content class="active">
+                  <div class="d-flex flex-wrap justify-content-start gap-4">
+                    <h1>All</h1>
+                    <a href="player-inner.html" class="player-box">
+                      <img
+                        src="assets/images/player1.webp"
+                        class="img-fluid player-img"
+                      />
+                      <h4 class="player-text">Hank Aaron</h4>
+                      <div class="login-message">
+                        <a href="javascript:void()">Please login</a>
+                      </div>
+                    </a>
+                    <a href="player-inner.html" class="player-box">
+                      <img
+                        src="assets/images/player1.webp"
+                        class="img-fluid player-img"
+                      />
+                      <h4 class="player-text">Hank Aaron</h4>
+                      <div class="login-message">
+                        <a href="javascript:void()">Please login</a>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div id="A-tabs" data-tab-content>
+                  
+                </div>
+                <div id="B-tabs" data-tab-content>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
