@@ -190,8 +190,34 @@ ul.tabs .tab {
 /* Player Inner Page */
 
 section.inner-banner {
-  text-align: center;
   background-color: var(--primary-color);
   overflow: hidden;
   padding: 50px 0 0 0;
+}
+.player-informations h1 {
+  font-size: 60px;
+  color: white;
+  line-height: 25px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.player-informations p, .player-informations p a {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  line-height: 41px;
+}
+.averge-text p {
+  font-size: 19px;
+  text-align: center;
+}
+
+.averge-text h4 {
+  color: white;
+  font-size: 30px;
+}
+
+.averge-text {
+  margin: 60px 0 0 0;
 }
