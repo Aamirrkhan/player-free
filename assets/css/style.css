@@ -195,17 +195,16 @@ section.inner-banner {
   padding: 50px 0 0 0;
 }
 .player-informations h1 {
-  font-size: 60px;
+  font-size: 45px;
   color: white;
-  line-height: 25px;
+  line-height: 66px;
   margin-bottom: 20px;
   font-weight: bold;
 }
 .player-informations p, .player-informations p a {
   font-size: 25px;
-  text-decoration: none;
   color: white;
-  text-decoration: none;
+  /* text-decoration: none; */
   line-height: 41px;
 }
 .averge-text p {
@@ -220,4 +219,47 @@ section.inner-banner {
 
 .averge-text {
   margin: 60px 0 0 0;
+}
+.below-text p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.player-informations {
+  width: fit-content;
+}
+.player-informations h1 a {
+  color: white;
+}
+.player-banner-img {
+  margin-bottom: -5px;
+}
+
+/* inner Tabs table */
+
+.table > thead tr th {
+  background: var(--primary-color);
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.table > tbody {
+  vertical-align: middle;
+}
+.table > tbody tr {
+  border-bottom: 1px solid #c1c1c1;
+}
+h4.tabs-head {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 800;
+}
+th.colspan-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+.table-rows {
+  margin-bottom: 50px;
 }

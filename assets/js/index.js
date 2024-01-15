@@ -34,9 +34,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     box.style.backgroundColor = storedColors[index];
   }
-  var playerBoxes = document.querySelectorAll(".player-box");
+  var playerBoxes = document.querySelectorAll("a.player-box");
   playerBoxes.forEach(function (box, index) {
     setOrGetBoxColor(box, index);
   });
 });
+
+
 
